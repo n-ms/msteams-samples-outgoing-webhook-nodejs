@@ -12,7 +12,7 @@ const prs = require ('./parse');
 // Setup Service on 8080
 //
 const crypto = require('crypto');
-const sharedSecret = "VerRZqy4ARWmtuHPyaGOXLpteLm+7tDngVYaegTkBK0="; // e.g. "+ZaRRMC8+mpnfGaGsBOmkIFt98bttL5YQRq3p2tXgcE="
+const sharedSecret = "<secret>; // e.g. "+ZaRRMC8+mpnfGaGsBOmkIFt98bttL5YQRq3p2tXgcE="
 const bufSecret = Buffer(sharedSecret, "base64");
 
 var http = require('http');
