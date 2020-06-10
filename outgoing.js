@@ -75,7 +75,7 @@ const card = {
     }]
     };
 
-    axios.post('https://outlook.office.com/webhook/bd473082-c6cc-4e72-982c-2be0d594f107@e0793d39-0939-496d-b129-198edd916feb/IncomingWebhook/f9dee13c868d421ea3b9f72a3eb2eab9/e9b58047-0c4e-4c96-b13b-f97bcdcb5e1b', card)
+    axios.post('<URL>', card)
     .then((res) => {
       console.log(`statusCode: ${res.statusCode}`)
       console.log(res)
